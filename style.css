@@ -16,6 +16,29 @@ body {
   min-height: 100vh;
   background-color: var(--Body-BG);
 }
+body::after {
+  content: "Coded by Burak Özcan";
+  color: var(--Light-Cyan);
+  font-size: 3rem;
+  display: grid;
+  place-items: center;
+  position: absolute;
+  background-color: var(--Body-BG);
+  width: 100%;
+  height: 100%;
+  z-index: 4;
+  animation: creator 5s forwards;
+}
+@keyframes creator {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+    z-index: -1;
+  }
+}
 .sr-only {
   border: 0 !important;
   clip: rect(1px, 1px, 1px, 1px) !important;

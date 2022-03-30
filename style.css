@@ -89,9 +89,11 @@ main {
   border: none;
   background-color: var(--Neon-Green);
 }
-.advice__random:hover {
+.advice__random:hover,
+.advice__random:focus-visible {
   animation: rotate 2s infinite;
   box-shadow: 0 0 0.5rem 2px var(--Neon-Green);
+  outline: none;
 }
 @keyframes rotate {
   0% {

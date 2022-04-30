@@ -23,7 +23,7 @@ Hello! This is my solution to the advice-generator-app challenge. This challenge
 
 - [The GitHub Repository](https://github.com/BurakOzcancf/advice-generator-app-main/)
 
-- [LIVE PREVIEW](https://burakozcancf.github.io/advice-generator-app-main/)
+- [LIVE PREVIEW](https://burakozcancf.github.io/Advice-generator-app-main/)
 
 - [Frontend Mentor](https://www.frontendmentor.io/)
 
